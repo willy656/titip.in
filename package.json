@@ -1,4 +1,5 @@
 {
+  "name": "example-expo-ts",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -8,7 +9,7 @@
     "eject": "expo eject",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
-    "lint": "eslint --max-warnings 0 .",
+    "lint": "eslint --max-warnings 0 \"src/**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit -p .",
     "jest": "jest --coverage --passWithNoTests",
     "test": "yarn lint && yarn typecheck && yarn format:check && yarn jest"
