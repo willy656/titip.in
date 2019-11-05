@@ -15,6 +15,7 @@ module.exports = {
     'plugin:react/recommended',
   ],
   rules: {
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
     indent: 'off',
     'prefer-const': 'off',
     '@typescript-eslint/prefer-interface': 0,
