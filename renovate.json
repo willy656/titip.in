@@ -1,0 +1,10 @@
+{
+  "extends": ["config:base"],
+  "labels": ["dependencies", "ready for review"],
+  "ignoreDeps": [
+    "react-native-svg",
+    "react-native-gesture-handler",
+    "react-native-reanimated",
+    "react-native-screens"
+  ]
+}
