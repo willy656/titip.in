@@ -6423,10 +6423,10 @@ react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react-native-testing-library@1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/react-native-testing-library/-/react-native-testing-library-1.11.1.tgz#0e2d73991110cf7d7800d86610ad7b7f8a4c9455"
-  integrity sha512-PTwDn1sgegvFqqF1v9zrRUChHqFqp5rWVUjXgkk134wssVhfc2oAuS6kiOvr3w7tLmFzuspxvT5sw0gMrRnDfQ==
+react-native-testing-library@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/react-native-testing-library/-/react-native-testing-library-1.12.0.tgz#aa16a2f3033ec742c7e49a5f7bdd46ccd9c83bba"
+  integrity sha512-DbWmlbXQabTsL9QGpdXJduPQdQk+91tmcpAant2lMu3mehkf2DxnfF0q20wogQnLrW+XHy8fCPznrAgQAnH04Q==
   dependencies:
     pretty-format "^24.0.0"
 
