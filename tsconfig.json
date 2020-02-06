@@ -7,8 +7,8 @@
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
+    "downlevelIteration": true,
     "strict": true,
-    "noUnusedLocals": true,
     "forceConsistentCasingInFileNames": true
   }
 }
