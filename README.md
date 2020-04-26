@@ -1,10 +1,17 @@
 # titip.in
 
 ## What is titip.in ?
+
 Titip.in is the name of our Technopreneurship final project.
 
 ## TODO:
 
-- [ ] Make fixtures
-- [ ] Make Auth scenes
-- [ ] Make Main scenes
+### Auth Scenes
+
+- [ ] Auth scene UI
+- [ ] Implement Keyboard aware scroll view
+
+### Main Scenes
+
+- [ ] Drawer component
+- [ ] Home scene UI
