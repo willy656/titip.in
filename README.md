@@ -8,7 +8,7 @@ Titip.in is the name of our Technopreneurship final project.
 
 ### Auth Scenes
 
-- [ ] Auth scene UI
+- [x] Auth scene UI
 - [ ] Implement Keyboard aware scroll view
 
 ### Main Scenes
