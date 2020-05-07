@@ -3,16 +3,17 @@ import {Image, Text, StyleSheet, Dimensions, TouchableOpacity, ImageProps } from
 type Props = {
     src: ImageProps;
     text: string;
-    width: number;
-    height: number;
+    iconWidth: number;
+    iconHeight: number;
+    onPress?: ()=>void;
 };
 
 export default function GridView(props: Props){
-    const {width, height} = props;
+    const {iconWidth, iconHeight, src, text, onPress} = props;
     return(
-        <TouchableOpacity style={styles.gridContainer}>
-            <Image source={props.src} style={{width:width, height:height}} />
-            <Text>{props.text}</Text>
+        <TouchableOpacity style={styles.gridContainer} onPress = {onPress}>
+            <Image source={src} style={{width:iconWidth, height:iconHeight}} />
+            <Text>{text}</Text>
         </TouchableOpacity>
     )
 }

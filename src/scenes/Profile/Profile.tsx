@@ -21,15 +21,15 @@ export default function ProfileScene (){
             </ImageBackground>
             <View style={styles.contentContainer}>
                 
-               <GridView src={peopleIcon} text="My Shop" width={30} height={33}></GridView>
-               <GridView src={settingIcon} text="Setting" width={30} height={30}></GridView>
-               <GridView src={infoIcon} text="FAQs" width={30} height={30}></GridView>
-               <GridView src={likeIcon} text="Feedback" width={30} height={30}></GridView>
-               <GridView src={protectionIcon} text="Privacy" width={30} height={35}></GridView>
-               <GridView src={infoIcon} text="Help" width={30} height={30}></GridView>
-               <GridView src={favoriteIcon} text="Likes" width={34} height={30}></GridView>
-               <GridView src={bellIcon} text="Notification" width={30} height={32}></GridView>
-               <GridView src={shopIcon} text="Orders" width={30} height={30}></GridView>
+               <GridView src={peopleIcon} text="My Shop" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={settingIcon} text="Setting" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={infoIcon} text="FAQs" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={likeIcon} text="Feedback" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={protectionIcon} text="Privacy" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={infoIcon} text="Help" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={favoriteIcon} text="Likes" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={bellIcon} text="Notification" iconWidth={30} iconHeight={33}></GridView>
+               <GridView src={shopIcon} text="Orders" iconWidth={30} iconHeight={33}></GridView>
 
                 
                
